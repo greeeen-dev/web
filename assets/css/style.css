@@ -311,6 +311,10 @@ img {
   }
 }
 
+#header-placeholder {
+  height: 90px;
+}
+
 .content-box {
   margin: 20px;
   padding: 30px;
@@ -347,6 +351,17 @@ img {
 
   &.lighthouse {
     --element-primary-color: rgb(162, 69, 255);
+  }
+
+  &.text-only {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 20px 20%;
+  }
+
+  .center {
+    text-align: center;
   }
 
   .content-label {
