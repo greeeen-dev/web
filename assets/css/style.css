@@ -353,6 +353,10 @@ img {
     --element-primary-color: rgb(162, 69, 255);
   }
 
+  &.discontinued {
+    --element-primary-color: #777;
+  }
+
   &.text-only {
     background-color: transparent !important;
     box-shadow: none !important;
