@@ -335,6 +335,10 @@ img {
     --element-primary-color: #ffb787;
   }
 
+  &.silkbrush {
+    --element-primary-color: #f18cdc;
+  }
+
   &.ente-auth {
     --element-primary-color: rgb(131, 48, 227);
     --button-hover-color: white;
